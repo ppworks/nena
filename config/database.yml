@@ -1,0 +1,13 @@
+development: &development
+  adapter: postgresql
+  database: Nena_development
+  encoding: utf8
+test:
+  <<: *development
+  database: Nena_test
+production:
+  <<: *development
+  database: Nena_production
+staging:
+  <<: *development
+  database: Nena_staging

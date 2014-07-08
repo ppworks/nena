@@ -1,0 +1,14 @@
+HOST: 'localhost:3000'
+NEW_RELIC_APP_NAME: 'Nena'
+test:
+  TEST_ASSET_HOST: ''
+  # forman
+  #TEST_ASSET_HOST: 'http://localhost:3000'
+staging:
+  NEW_RELIC_APP_NAME: 'Nena-stg'
+production:
+  NEW_RELIC_APP_NAME: 'Nena'
+  NEWRELIC_DISPATCHER: 'Puma'
+  SESSION_KEY: '_Nena_session'
+  SECRET_TOKEN: 'Be change this to `rake secret` result'
+  HOST: 'nena.herokuapp.com'
