@@ -9,7 +9,7 @@ ja:
     range: "%{begin_at} 〜 %{end_at}"
     ago: '前'
   site_info:
-    title: 'Nena'
+    title: '( ˘ω˘)'
     description: 'Nena'
   nav:
     devise:
